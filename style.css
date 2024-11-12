@@ -1,0 +1,190 @@
+body{margin: 0px;
+    background-image: url(images/Papa.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.active{
+    background-color:transparent;
+}
+
+ul a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: tahoma;
+    font-weight: 600;
+    font-size: 39px;
+}
+.nav .ul{
+    padding: 0%;
+    overflow: hidden;
+    display: flex;
+    gap: 20%;
+    text-decoration: none;
+    list-style: none;
+    background-color:transparent;
+    font-size:x-large;
+    color: white;
+    padding-left: 18%;
+    padding-right:18% ;
+}
+.ul li a:hover:not(.active) {
+    background-color:cornflowerblue;
+}
+.logo{
+    text-align: center;
+}
+
+.text{
+    color:white;
+    font-size: 60px;
+    float: left;
+    font-style: italic;
+    margin: 5px;
+    padding: 100px;
+}
+
+.text H1{
+    font-size: 30px;
+    color:white;
+}
+
+.text p{
+    font-size:26px;
+}
+
+Footer{ 
+    padding:50px;
+    color:white;
+}
+#portfolio {
+    text-align: center;
+    padding: 2em;
+    background-color:transparent;
+}
+
+#portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.portfolio-item {
+    background-color:transparent;
+    border: 1px solid transparent;
+    padding: 1em;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow:0px 4px 8px white(0, 0, 0, 0.1);
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    padding-right:50%;
+    padding-left: 50%;
+}
+
+.portfolio-item h3 {
+    font-size: 1.25em;
+    margin-top: 0.75em;
+}
+
+.portfolio-item p {
+    font-size: 0.9em;
+    color:white;
+    margin-top: 0.5em;
+}
+
+.container{
+    padding: 2px;
+    border:1px solid white;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+.footer{
+        padding:400px;
+        color:white;  
+}
+h1{
+    color:white;
+}
+
+.About-us{
+    margin: 20% ;
+    height: 100px;
+    margin-top: 20PX;
+    
+}
+h3{
+    color: white;
+    font-family:monospace;
+    font-size: 30px;
+}
+
+.About-us p{
+    font-size: 24px;
+    font-family: tahoma;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    height: auto;
+}
+
+.quiries{
+    margin: 5px 20%;
+}
+
+.quiries p{
+    font-size: 25px;
+    font-family: verdana;
+    color: antiquewhite;
+    padding: 20px;
+}
+
+
+table{
+    text-align: center;
+    color:white;
+    margin: 5px 40%;
+    width: 20%;
+    height: 30%;
+    
+}
+
+input[type="text"],input[type="email"],input[type="tel"], input[type="month"], textarea{
+    padding: 10px  30px;
+    
+}
+input[type="submit"]:hover{
+    color:green;
+    border-radius:5px;
+    gap:2px;
+}
+input[type="reset"]:hover{
+    color:green;
+    border-radius:5px;
+}
+  
